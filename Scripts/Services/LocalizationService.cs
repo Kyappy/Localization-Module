@@ -142,8 +142,6 @@ namespace LocalizationModule.Services {
 				translation = translation.Replace(":" + index.ToUpper(), parameters[index].ToUpper());
 			}
 
-			Debug.Log(translation);
-
 			return translation;
 		}
 
